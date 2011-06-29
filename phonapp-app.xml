@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<application xmlns="http://ns.adobe.com/air/application/2.6">
+    <id>com.me.phonapp</id>
+    <versionNumber>1.0</versionNumber>
+    <filename>phonapp</filename>
+    <description></description>
+    <!-- To localize the description, use the following format for the description element.
+    <description>
+        <text xml:lang="en">English App description goes here</text>
+        <text xml:lang="fr">French App description goes here</text>
+        <text xml:lang="ja">Japanese App description goes here</text>
+    </description>
+    -->
+    <name>phonapp</name>
+    <!-- To localize the name, use the following format for the name element.
+    <name>
+        <text xml:lang="en">English App name goes here</text>
+        <text xml:lang="fr">French App name goes here</text>
+        <text xml:lang="ja">Japanese App name goes here</text>
+    </name>
+    -->
+    <copyright></copyright>
+    <fileTypes>
+        <fileType>
+            <name>phoneapp.foo</name>
+            <extension>foo</extension>
+            <description>myAIREditor text description file</description>
+            <contentType>text/plain</contentType>
+        </fileType>
+    </fileTypes>
+    <initialWindow>
+        <content>phonapp.swf</content>
+        <systemChrome>standard</systemChrome>
+        <transparent>false</transparent>
+        <visible>true</visible>
+        <fullScreen>false</fullScreen>
+        <autoOrients>true</autoOrients>
+        <renderMode>auto</renderMode>
+    </initialWindow>
+    <customUpdateUI>false</customUpdateUI>
+    <allowBrowserInvocation>false</allowBrowserInvocation>
+    <icon></icon>
+    <iPhone>
+        <requestedDisplayResolution>standard</requestedDisplayResolution>
+        <InfoAdditions><![CDATA[<key>UIDeviceFamily</key><array><string>1</string></array><key>UIFileSharingEnabled</key><string>YES</string>]]></InfoAdditions>
+    </iPhone>
+    <android>
+        <manifestAdditions><![CDATA[<manifest><uses-permission android:name="android.permission.INTERNET"/><uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/></manifest>]]></manifestAdditions>
+    </android>
+    <versionLabel></versionLabel>
+</application>
